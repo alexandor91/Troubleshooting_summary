@@ -16,5 +16,6 @@ also displayed on the other one. but "rostopic echo" dose not work for the other
 my ubuntu version is 16.04 LTS, after the install via apt-get command, I included the pcl tools into my source files, but after the cat_ kin compilation the problem occured.
  1. <b>Q:</b> /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libpcl_common.so: undefined reference to 'GOMP_parallel@GOMP_4.0'fusion_octomap/CMakeFiles/OctoNode.dir/build.make:317: recipe for target '/home/kang/catkin_ws/devel/lib/fusion_octomap/OctoNode' failed</br>
 <b>Solution:</b>command line:just follow the link to compile the pcl source and the install it locally. [install pcl and the Kinect support install](https://larrylisky.com/2014/03/03/installing-pcl-on-ubuntu/)
+----command for qt version check: qtchooser -list-versions
 
 
