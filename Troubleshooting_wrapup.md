@@ -17,5 +17,7 @@ my ubuntu version is 16.04 LTS, after the install via apt-get command, I include
  1. <b>Q:</b> /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/libpcl_common.so: undefined reference to 'GOMP_parallel@GOMP_4.0'fusion_octomap/CMakeFiles/OctoNode.dir/build.make:317: recipe for target '/home/kang/catkin_ws/devel/lib/fusion_octomap/OctoNode' failed</br>
 <b>Solution:</b>command line:just follow the link to compile the pcl source and the install it locally. [install pcl and the Kinect support install](https://larrylisky.com/2014/03/03/installing-pcl-on-ubuntu/)
 ----command for qt version check: qtchooser -list-versions
+## Datasets improvement for machine learning
+[Datasets_improvement](https://hackernoon.com/stop-feeding-garbage-to-your-model-the-6-biggest-mistakes-with-datasets-and-how-to-avoid-them-3cb7532ad3b7?source=activity---post_recommended_rollup)
 
 
