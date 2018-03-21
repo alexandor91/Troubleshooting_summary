@@ -20,4 +20,21 @@ my ubuntu version is 16.04 LTS, after the install via apt-get command, I include
 ## Datasets improvement for machine learning
 [Datasets_improvement](https://hackernoon.com/stop-feeding-garbage-to-your-model-the-6-biggest-mistakes-with-datasets-and-how-to-avoid-them-3cb7532ad3b7?source=activity---post_recommended_rollup)
 
+1. <b>Not enough data</b>
+<b>Solution</b>Augment data via creating by slight variations or refine model;
+
+2. <b>Low quality classes</b>
+<b>Solution</b>Two stages classifications
+
+3. <b>Low quality data</b>
+<b>Solution</b>Means used to aquire data, build up dataset
+
+4. <b>Unbalanced classes</b>
+<b>Solution</b>Remove over-sample or augment the over-sample data
+
+5. <b>Unbalanced data</b>
+<b>Solution</b>Normalization
+
+6. <b>No Validation for testing</b>
+<b>Solution</b>Split
 
